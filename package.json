@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-no-hyogo-police",
+  "version": "1.0.0",
+  "description": "ESLint rule for check easy infinite loop.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "mocha tests/lib/rules/*.js"
+  },
+  "author": "Masami Asai <shakeforme@gmail.com> (http://count0.org/)",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "loop"
+  ],
+  "devDependencies": {
+    "eslint-config-eslint": "^5.0.1",
+    "mocha": "^6.0.2"
+  },
+  "peerDependency": {
+    "eslint": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipboy3000/eslint-plugin-no-hyogo-police.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pipboy3000/eslint-plugin-no-hyogo-police/issues"
+  },
+  "homepage": "https://github.com/pipboy3000/eslint-plugin-no-hyogo-police"
+}
