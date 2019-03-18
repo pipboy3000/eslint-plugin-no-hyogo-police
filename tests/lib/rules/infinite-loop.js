@@ -16,6 +16,6 @@ tester.run('infinite_loop', require('../../../lib/rules/infinite-loop'), {
     { code: "while('a'){}", errors: ["They are watching you from Hyogo."] },
     { code: "for(;;){}", errors: ["They are watching you from Hyogo."] },
     { code: "for(var i = 0;;i++){}", errors: ["They are watching you from Hyogo."] },
-    { code: "for(var i = 0; i = 0;i++){}", errors: ["They are watching you from Hyogo."] }
+    { code: "for(var i = 0; i = 1;i++){}", errors: ["They are watching you from Hyogo."] }
   ]
 })
