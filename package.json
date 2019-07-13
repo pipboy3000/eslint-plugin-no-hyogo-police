@@ -17,7 +17,8 @@
   ],
   "devDependencies": {
     "eslint-config-eslint": "^5.0.1",
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "eslint": ">=0.8.0"
   },
   "peerDependency": {
     "eslint": ">=0.8.0"
